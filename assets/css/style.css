@@ -42,7 +42,7 @@ footer {
 	width:100%;
 	height:94px;	
 	border-style:solid;
-	border-color:#4aaaa5;
+	border-color:#00afa8;
 	border-width: 8px 0px 0px 0px;
 }
 
@@ -198,6 +198,10 @@ img.social {
 	padding:30px 2px 0px 10px;
 }
 
+img.social:hover {
+	opacity:0.5;
+}
+
 img.portfolio {
 	width:300px;
 	margin-top:40px;
@@ -207,17 +211,21 @@ img.portfolio {
 	float:left;
 }
 
+img.portfolio:hover {
+	opacity:0.5;
+}
+
 /* ********** DIV#MAIN ********** */
 
 div#main {
 	position:relative;
 	left:156px;
-	top:59px;
+	top:40px;
 	background-color: white;
 	display:block;
 	float:left;
 	border-style: solid;
-	border-color:#9c9d9e;
+	border-color:#dddddd;
 	border-width: 2px 2px 2px 2px;
 	padding:35px;
 	margin-bottom:144px;
@@ -231,12 +239,12 @@ div#main p {
 div#sidebar {
 	position:absolute;
 	right:241px;
-	top:151px;
+	top:131px;
 	background-color:white;
 	display: inline-block;
 	float: left;
 	border-style: solid;
-	border-color: #9c9d9e;
+	border-color: #dddddd;
 	border-width: 2px 2px 2px 2px;
 	margin-bottom:144px;
 	height:201px;
@@ -265,6 +273,17 @@ input#submit {
 
 	color:#ffffff;
 	font-size:18px;
+}
+
+input#submit:hover {
+	box-sizing: border-box;
+	background-color:#ffffff;
+	border-style:solid;
+	border-color: #00afa8;
+	padding:1px 0px 1px 0px;
+	border-width:2px;
+	color:#00afa8;
+	text-align: center;
 }
 
 input {
