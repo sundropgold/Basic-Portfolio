@@ -6,7 +6,6 @@
 body {
 	background-image: url("../images/stardust.png");
 	background-repeat:repeat;
-	z-index:-1;
 }
 
 div#content {
@@ -19,6 +18,10 @@ div#main {
 
 div#sidebar {
 	width: 270px;
+}
+
+div#clear {
+	clear:both;
 }
 
 /* ********** HEADER ********** */
@@ -53,7 +56,7 @@ footer p {
 
 h1, h2, h3 {
 	font-family: "Georgia", Times, "Times New Roman", serif;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 }
 
 h1 {
@@ -70,11 +73,33 @@ h1 {
 	margin-bottom:0px;
 	margin-left:156px;
 	margin-right:0px;
+	z-index: 4;
 
 }
 
 h2 {
 	color:#00afa8;
+	font-size:28px;
+	font-weight: bold;
+	text-align: left;
+	display:block;
+	float:left;
+	background-color: #ffffff;
+	padding: 13px 438px 35px 30px;
+	border-style: solid;
+	border-color:#9c9d9e;
+	border-width: 0px 0px 3px 0px;
+}
+
+h3 {
+	color:#00afa8;
+	font-size:19px;
+	font-weight:bold;
+	text-align: center;
+	padding: 28px 0px 28px 0px;
+	border-style:solid;
+	border-color: #9c9d9e;
+	border-width: 0px 0px 3px 0px;
 }
 
 p, a {
@@ -91,7 +116,7 @@ footer p {
 /* ********** NAVIGATION ********** */
 
 nav {
-	position:fixed;
+	position:absolute;
 	width:100%;
 	top:30px;
 	right:240px;
@@ -131,20 +156,49 @@ a:visited {
 
 img#profilepic {
 	width:30%;
+	display:block;
+	float:left;
+	padding:32px 25px 25px 25px;
 }
 
 img.social {
-	width:20%;
+	width:25%;
+	padding:30px 2px 0px 10px;
 }
 
 /* ********** DIV#MAIN ********** */
 
 div#main {
+	position:relative;
+	left:156px;
+	top:59px;
 	background-color: white;
+	display:block;
+	float:left;
+	border-style: solid;
+	border-color:#9c9d9e;
+	border-width: 2px 2px 2px 2px;
+	padding:35px;
+	margin-bottom:144px;
 }
 
+div#main p {
+	padding:32px 0px 0px 0px;
+}
 /* ********** DIV#SIDEBAR ********** */
 
 div#sidebar {
+	position:absolute;
+	right:241px;
+	top:151px;
 	background-color:white;
+	display: inline-block;
+	float: left;
+	border-style: solid;
+	border-color: #9c9d9e;
+	border-width: 2px 2px 2px 2px;
+	margin-bottom:144px;
+	height:201px;
+	padding:0px 32px 0px 32px;
+	box-sizing: border-box;
 }
