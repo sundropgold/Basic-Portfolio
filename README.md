@@ -8,3 +8,6 @@ This basic portfolio template includes the basic essentials: information about t
 * Index Page
 * Portfolio Page
 * Contact Page
+
+### Demo
+https://sundropgold.github.io/Basic-Portfolio/
